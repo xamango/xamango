@@ -1,69 +1,80 @@
 /*
-	Xamango.org style sheet
+  Xamango.org style sheet
 */
 
 body {
-	background-color: #fcfcfc;
-    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	width: 960px;
-	margin: auto;
+  background-color: #fcfcfc;
+  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  width: 960px;
+  margin: auto;
 }
 
-A {
-	color: #393;
+a {
+  color: #393;
 }
-A:hover {
-	color: #363;
+a:hover {
+  color: #363;
 }
 
 #head, #foot {
-	background-color: #393;
-	color: white;
-	padding-left: .25em;
-	padding-right: .25em;
-	padding-bottom: .15em;
+  background-color: #393;
+  color: white;
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-bottom: .15em;
 }
 #nav {
-	background-color: #cfc;
-	padding: .1em;
+  background-color: #cfc;
+  padding: .1em;
 }
 
 #content {
-	padding: .5em;
+  padding: .5em;
 }
 
 #content h2 {
-	border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 #content dt {
-	font-style: italic;
+  font-style: italic;
 }
 
 #content blockquote {
-	border : 2px solid #000;
-	margin: 0px;
-	padding: 3px;
-	background-color: #B4CDB9;
-	quotes: "\201C" "\201D";
+  border : 2px solid #000;
+  margin: 0px;
+  padding: 3px;
+  background-color: #B4CDB9;
+  quotes: "\201C" "\201D";
 }
 #content blockquote p:before { content: open-quote; font-weight: bold; font-size: 30px;}
 /* #content blockquote p:after { content: close-quote; font-weight: bold; } */
 
 q {
-	font-style: italic;
+  font-style: italic;
 }
 
 .announce {
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
-#head A { text-decoration: none; color: inherit;}
-#foot A {
-	color: white;
+#head a {
+  text-decoration: none; color: inherit;
 }
-#foot A:hover {
-	color: #eee;
+#head a:hover {
+  text-decoration: underline;
+}
+
+#foot a {
+  color: white;
+}
+#foot a:hover {
+  color: #eee;
+}
+
+.twitter-follow-button {
+position: relative;
+top: 4px;
 }
