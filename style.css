@@ -22,6 +22,9 @@ a:hover {
   padding-left: .25em;
   padding-right: .25em;
   padding-bottom: .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 #nav {
   background-color: #cfc;
